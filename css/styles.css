@@ -52,4 +52,28 @@ body {
   padding: 0.25rem;
 }
 
+img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+table th {
+  padding: 8px 16px;
+  font-weight: bold;
+  background-color: #ddd;
+}
+table tr {
+  background-color: #ececec;
+}
+table tr:nth-of-type(2n) {
+  background-color: #dbdbdb;
+}
+table td {
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=styles.css.map */
